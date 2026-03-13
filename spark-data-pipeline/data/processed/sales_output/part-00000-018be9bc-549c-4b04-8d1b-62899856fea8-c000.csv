@@ -1,0 +1,4 @@
+id,product,price,quantity,total_sales
+1,Laptop,50000.0,2,100000.0
+2,Mouse,500.0,5,2500.0
+3,Keyboard,1500.0,3,4500.0
