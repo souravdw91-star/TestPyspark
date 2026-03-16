@@ -1,0 +1,14 @@
+spark:
+  app_name: pyspark_mysql_dt_pl
+  master: local[*]
+
+mysql:
+  host: localhost
+  port: 3306
+  database: spark_demo
+  table: sales
+  user: root
+  password: sourav
+
+data:
+  input_csv: data/raw/sales.csv
