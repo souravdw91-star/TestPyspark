@@ -1,6 +1,7 @@
 import logging
 
 def get_logger():
+    """Create and return a logger for the pipeline."""
 
     logging.basicConfig(
         level=logging.INFO,

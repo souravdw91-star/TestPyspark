@@ -1,4 +1,13 @@
 def write_to_mysql(df, config):
+    """Write a DataFrame to MySQL using JDBC.
+
+    The operation uses overwrite mode by default so the target table is replaced
+    on each run.
+
+    Args:
+        df: Spark DataFrame to persist.
+        config: Configuration dict containing the MySQL connection settings.
+    """
 
     mysql = config["mysql"]
 
